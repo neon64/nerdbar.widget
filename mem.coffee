@@ -4,7 +4,6 @@ refreshFrequency: 30000 # ms
 
 render: (output) ->
   """
-  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css" />
   <div class="mem"
     <span></span>
     <span class="icon"></span>
@@ -20,7 +19,7 @@ update: (output, el) ->
 style: """
   -webkit-font-smoothing: antialiased
   color: #d5c4a1
-  font: 10px Input
-  right: 215px
-  top: 6px
+  font: 13px Lucida Grande
+  right: 250px
+  top: 1px
 """

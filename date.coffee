@@ -4,7 +4,6 @@ refreshFrequency: 10000
 
 render: (output) ->
   """
-  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css" />
   <div class="cal"
     <span></span>
     <span class="icon"></span>
@@ -20,7 +19,7 @@ update: (output, el) ->
 style: """
   -webkit-font-smoothing: antialiased
   color: #d5c4a1
-  font: 10px Input
-  right: 70px
-  top: 6px
+  font: 13px Lucida Grande
+  right: 90px
+  top: 1px
 """
